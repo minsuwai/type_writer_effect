@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(img/3c71a9442647549c921a16b5d99830fd.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 3rem;
+}
+
+h1, h2{
+    font-weight: normal;
+    margin: 0.4rem;
+}
+
+h1{
+    font-size: 3rem;
+    color: #fff6ec;
+}
+
+h2{
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+.txt-type{
+    margin-left: 10px;
+    font-weight: normal;
+    color: #dd7732;
+}
+
+.txt-type:after{
+    content: "";
+    margin-left: 4px;
+    width: 1px !important;
+    height: 5% !important;
+    border-right: 4px solid #dd7732 !important;
+    animation: blink 0.5s infinite ease;
+    /* display: inline-block; */
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
